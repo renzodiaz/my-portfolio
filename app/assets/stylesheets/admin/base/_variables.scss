@@ -1,0 +1,21 @@
+$body-size: 16px !default;
+
+// Responsiveness
+// 960, 1152, and 1344 have been chosen because they are divisible by both 12 and 16
+$tablet: 769px !default;
+// 960px container + 40px;
+$desktop: 1000px !default;
+// 1152px container + 40;
+$widescreen: 1192px !default;
+// 1344px container + 40;
+$fullhd: 1384px !default;
+
+$white: #fff !default;
+$orange: hsl(17, 83%, 57%);
+$primary: $orange !default;
+$primary-invert: $white !default;
+
+// Link colors
+$link: $primary !default;
+$link-invert: $white !default;
+$navbar-height: 3.25rem;
